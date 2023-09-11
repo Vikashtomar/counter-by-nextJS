@@ -10,14 +10,17 @@ const Todo = () => {
     setAdd([...add, inp]);
     setInp('');
   }
+  
 
   function deleteTodo(index) {
     const updatedTodos = add.filter((_, i) => i !== index);
     setAdd(updatedTodos);
   }
 
+ 
   return (
     <div>
+      
       <h3>Add your to-do</h3>
       <input
         type="text"
@@ -40,3 +43,4 @@ const Todo = () => {
 };
 
 export default Todo;
+

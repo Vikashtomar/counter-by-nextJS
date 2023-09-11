@@ -1,14 +1,14 @@
  import React from 'react'
-// import Counter from './Counter'
-// import "./Counter.css"
+ 
 import Todo from './Todo app/Todo'
+import Mytodo from './Todo app/Mytodo'
  
  function page() {
    return (
      <div>
-
-      {/* <Counter /> */}
-      <Todo />
+ 
+      {/* <Todo /> */}
+      <Mytodo />
      </div>
    )
  }
